@@ -9,8 +9,8 @@ import Rswift
 
 public class AKCards: NSObject {
 
-    class public func callImageFromRSwift() {
+    class public func callImageFromRSwift() -> UIImage? {
         
-        let icon = R.image.masterpass()
+        return R.image.masterpass()
     }
 }
