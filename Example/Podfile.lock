@@ -1,0 +1,16 @@
+PODS:
+  - AKCards (0.1.0)
+
+DEPENDENCIES:
+  - AKCards (from `../`)
+
+EXTERNAL SOURCES:
+  AKCards:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKCards: 103a4622edf46af11fcd865045821f648da9ce06
+
+PODFILE CHECKSUM: f3c813a27079b6eebf0c6973340cdb406322bb24
+
+COCOAPODS: 1.8.4

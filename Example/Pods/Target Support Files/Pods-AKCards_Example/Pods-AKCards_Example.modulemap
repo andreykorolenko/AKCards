@@ -1,0 +1,6 @@
+framework module Pods_AKCards_Example {
+  umbrella header "Pods-AKCards_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

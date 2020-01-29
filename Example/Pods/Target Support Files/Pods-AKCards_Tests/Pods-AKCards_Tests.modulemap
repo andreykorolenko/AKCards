@@ -1,0 +1,6 @@
+framework module Pods_AKCards_Tests {
+  umbrella header "Pods-AKCards_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

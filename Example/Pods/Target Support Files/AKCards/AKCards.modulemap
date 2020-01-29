@@ -1,0 +1,6 @@
+framework module AKCards {
+  umbrella header "AKCards-umbrella.h"
+
+  export *
+  module * { export * }
+}
