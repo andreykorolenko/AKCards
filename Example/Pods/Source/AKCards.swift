@@ -11,6 +11,8 @@ public class AKCards: NSObject {
 
     class public func callImageFromRSwift() -> UIImage? {
         
+        let icon = AKCards.callImageFromRSwift()
+        
         return R.image.masterpass()
     }
 }
