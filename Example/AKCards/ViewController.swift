@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        AKCards.openCard()
+        AKCards.callImageFromRSwift()
     }
 
 }
-

@@ -1,16 +1,28 @@
 PODS:
-  - AKCards (0.1.0)
+  - AKCards (0.1.1):
+    - R.swift
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
 
 DEPENDENCIES:
   - AKCards (from `../`)
+  - R.swift
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+    - R.swift.Library
 
 EXTERNAL SOURCES:
   AKCards:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AKCards: 103a4622edf46af11fcd865045821f648da9ce06
+  AKCards: 30856981d91a156e82d74434f2e5ad4c467bc0ce
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
 
-PODFILE CHECKSUM: f3c813a27079b6eebf0c6973340cdb406322bb24
+PODFILE CHECKSUM: 7363ab2921a3da8ad57cfe54443919471b6a3324
 
 COCOAPODS: 1.8.4

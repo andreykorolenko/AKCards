@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'AKCards_Example' do
+  pod 'R.swift'
   pod 'AKCards', :path => '../'
 
   target 'AKCards_Tests' do
