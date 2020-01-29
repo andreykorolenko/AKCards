@@ -8,7 +8,7 @@
 public class AKCards: NSObject {
 
     class public func openCard() {
-        
+        let icon = R.image.checkBox()
     }
     
     class public func closeCard() {
