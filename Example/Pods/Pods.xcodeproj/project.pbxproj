@@ -24,8 +24,9 @@
 		0177B19691149E5F49480006E5C9A218 /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91711A2BBCA31416A7E49F4E75BC5BAB /* UIColor+ColorResource.swift */; };
 		02AFBE1C288D50761A3DDDA664A3069C /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A610F0BE4841758CA6D0DE7A8B560B /* ColorResource.swift */; };
 		18D3AF7B8132C4944CCDE1E0C8D2D2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1E7B416B23E1B0F300BBEBC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7B416A23E1B0F300BBEBC2 /* Images.xcassets */; };
-		1E99897123E1BC9C00309D79 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99897023E1BC9C00309D79 /* R.generated.swift */; };
+		1E99897C23E1C0AB00309D79 /* AKCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99897923E1C0AB00309D79 /* AKCards.swift */; };
+		1E99897D23E1C0AB00309D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E99897A23E1C0AB00309D79 /* Images.xcassets */; };
+		1E99897E23E1C0AB00309D79 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99897B23E1C0AB00309D79 /* R.generated.swift */; };
 		1F63FF81A7E6E5587E541628529517A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		21575DF4ACFBBCFAC78E4319E78A03D1 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C3DD9F8C90D9233FE2C387DFD1A1C /* UIStoryboard+StoryboardViewControllerResource.swift */; };
 		271FB9697F644AF4F6BD875866D728AA /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02536CED8E590AA380713A1F1DC9424 /* StoryboardViewControllerResource.swift */; };
@@ -34,7 +35,6 @@
 		35E20EF78170860DAC066BFE2117D560 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2C02F33041C29B52150C04592F72CB /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C85116DEBC3238FCB824AD53B223A66 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FECEE456B92636E6ED23B18CDEBE4 /* UIImage+ImageResource.swift */; };
 		3CBE31E9EBC64A768FC94E0800CE43D0 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C3DD5681EED326FED1651EF8FEA5C /* UIViewController+NibResource.swift */; };
-		40C01D3C324430906E1FD69A7C25587F /* AKCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56FCA8083343E6CC78F76FDB11D405 /* AKCards.swift */; };
 		426A7372872965922B8BC53AD972E5C4 /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A0E458863B7EEAB1F30106C6482DE /* NibResource+UIKit.swift */; };
 		460996C019472D51DAB38F3E7597BFFC /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51BED72BFDE35709D2F35C23B171BA /* NibResource.swift */; };
 		522F1FCABD80764686583B7E30EF0CD2 /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C2C35429B14B4348FF37AE189F5B8 /* StoryboardResourceWithInitialController+UIKit.swift */; };
@@ -119,10 +119,10 @@
 		175F4DB8504FCB78B8CEADAF168CB9A5 /* AKCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKCards-dummy.m"; sourceTree = "<group>"; };
 		19A610F0BE4841758CA6D0DE7A8B560B /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
 		1A895402A7B61CB1AAD576A4705DE5AC /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
-		1B56FCA8083343E6CC78F76FDB11D405 /* AKCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AKCards.swift; sourceTree = "<group>"; };
 		1E5EDF6A32D4F6D3B9AA58C00A261FD4 /* Pods-AKCards_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKCards_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E7B416A23E1B0F300BBEBC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1E99897023E1BC9C00309D79 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		1E99897923E1C0AB00309D79 /* AKCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKCards.swift; sourceTree = "<group>"; };
+		1E99897A23E1C0AB00309D79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E99897B23E1C0AB00309D79 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		1EED462601CEF589BE5FD147F76BE7BD /* AKCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKCards-prefix.pch"; sourceTree = "<group>"; };
 		22B954189D14962814AEEBA9AEFC02EE /* Pods-AKCards_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKCards_Tests-Info.plist"; sourceTree = "<group>"; };
 		2D51BED72BFDE35709D2F35C23B171BA /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
@@ -227,14 +227,15 @@
 			path = "../Target Support Files/R.swift";
 			sourceTree = "<group>";
 		};
-		1E99896C23E1B87F00309D79 /* Source */ = {
+		1E99897823E1C0AB00309D79 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1B56FCA8083343E6CC78F76FDB11D405 /* AKCards.swift */,
-				1E7B416A23E1B0F300BBEBC2 /* Images.xcassets */,
-				1E99897023E1BC9C00309D79 /* R.generated.swift */,
+				1E99897923E1C0AB00309D79 /* AKCards.swift */,
+				1E99897A23E1C0AB00309D79 /* Images.xcassets */,
+				1E99897B23E1C0AB00309D79 /* R.generated.swift */,
 			);
-			path = Source;
+			name = Source;
+			path = Example/Pods/Source;
 			sourceTree = "<group>";
 		};
 		465B090EA1DA9CE61C4360D8C3785379 /* Pods */ = {
@@ -249,7 +250,7 @@
 		4ABA1B51AB7BA61950FF5A892DE4D4B9 /* AKCards */ = {
 			isa = PBXGroup;
 			children = (
-				1E99896C23E1B87F00309D79 /* Source */,
+				1E99897823E1C0AB00309D79 /* Source */,
 				FB7D7E45C85DD6D1CDCDEC5A2008466B /* Pod */,
 				C742FBE25CC86594540FCAA464AC3514 /* Support Files */,
 			);
@@ -592,7 +593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E7B416B23E1B0F300BBEBC2 /* Images.xcassets in Resources */,
+				1E99897D23E1C0AB00309D79 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,11 +620,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/R.generated.swift,
+				$SRCROOT/Source/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate --accessLevel public \"$SRCROOT/R.generated.swift\"\n";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate --accessLevel public \"$SRCROOT/Source/R.generated.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -641,8 +642,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFB0A02DC4E81C173F10D2281502864 /* AKCards-dummy.m in Sources */,
-				40C01D3C324430906E1FD69A7C25587F /* AKCards.swift in Sources */,
-				1E99897123E1BC9C00309D79 /* R.generated.swift in Sources */,
+				1E99897C23E1C0AB00309D79 /* AKCards.swift in Sources */,
+				1E99897E23E1C0AB00309D79 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

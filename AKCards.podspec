@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Example/Pods/Source/**/*.swift'
   
-  s.resource_bundles = {
-      'AKCards' => ['Source/**/*.swift']
-  }
+  #s.resource_bundles = {
+      #'AKCards' => ['Example/Pods/Sources/**/*.swift']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
