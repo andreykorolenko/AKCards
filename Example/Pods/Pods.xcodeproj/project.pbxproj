@@ -25,8 +25,8 @@
 		02AFBE1C288D50761A3DDDA664A3069C /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A610F0BE4841758CA6D0DE7A8B560B /* ColorResource.swift */; };
 		18D3AF7B8132C4944CCDE1E0C8D2D2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1E99897C23E1C0AB00309D79 /* AKCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99897923E1C0AB00309D79 /* AKCards.swift */; };
-		1EED71BF23E1EF2500406023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EED71BD23E1EF2500406023 /* Images.xcassets */; };
 		1EED71C223E1F04600406023 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED71C123E1F04600406023 /* R.generated.swift */; };
+		1EED71C423E1F7A100406023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EED71C323E1F7A100406023 /* Images.xcassets */; };
 		1F63FF81A7E6E5587E541628529517A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		21575DF4ACFBBCFAC78E4319E78A03D1 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C3DD9F8C90D9233FE2C387DFD1A1C /* UIStoryboard+StoryboardViewControllerResource.swift */; };
 		271FB9697F644AF4F6BD875866D728AA /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02536CED8E590AA380713A1F1DC9424 /* StoryboardViewControllerResource.swift */; };
@@ -122,8 +122,8 @@
 		1E5EDF6A32D4F6D3B9AA58C00A261FD4 /* Pods-AKCards_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKCards_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E99897923E1C0AB00309D79 /* AKCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKCards.swift; sourceTree = "<group>"; };
 		1EED462601CEF589BE5FD147F76BE7BD /* AKCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKCards-prefix.pch"; sourceTree = "<group>"; };
-		1EED71BD23E1EF2500406023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1EED71C123E1F04600406023 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		1EED71C323E1F7A100406023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22B954189D14962814AEEBA9AEFC02EE /* Pods-AKCards_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKCards_Tests-Info.plist"; sourceTree = "<group>"; };
 		2D51BED72BFDE35709D2F35C23B171BA /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
 		2F5D4AA872E5204298064E63493E415A /* R.swift.Library-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift.Library-Info.plist"; sourceTree = "<group>"; };
@@ -232,18 +232,10 @@
 			children = (
 				1E99897923E1C0AB00309D79 /* AKCards.swift */,
 				1EED71C123E1F04600406023 /* R.generated.swift */,
+				1EED71C323E1F7A100406023 /* Images.xcassets */,
 			);
 			name = Source;
 			path = Example/Pods/Source;
-			sourceTree = "<group>";
-		};
-		1EED71BC23E1EF2500406023 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1EED71BD23E1EF2500406023 /* Images.xcassets */,
-			);
-			name = Resources;
-			path = Example/Pods/Resources;
 			sourceTree = "<group>";
 		};
 		465B090EA1DA9CE61C4360D8C3785379 /* Pods */ = {
@@ -259,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				1E99897823E1C0AB00309D79 /* Source */,
-				1EED71BC23E1EF2500406023 /* Resources */,
 				FB7D7E45C85DD6D1CDCDEC5A2008466B /* Pod */,
 				C742FBE25CC86594540FCAA464AC3514 /* Support Files */,
 			);
@@ -602,7 +593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EED71BF23E1EF2500406023 /* Images.xcassets in Resources */,
+				1EED71C423E1F7A100406023 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
