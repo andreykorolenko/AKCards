@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* AKCards_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKCards_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F9424607CDC4CDEF681E52C /* AKCards.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKCards.podspec; path = ../AKCards.podspec; sourceTree = "<group>"; };
+		7F9424607CDC4CDEF681E52C /* AKCards.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKCards.podspec; path = ../AKCards.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96D026B8AE667D7A92E539E9 /* Pods-AKCards_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKCards_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AKCards_Tests/Pods-AKCards_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA97A4EE9FD26AFD2C5A362C /* Pods_AKCards_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKCards_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CE32ECE0F9DE2CDC651157 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
