@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKCards'
-  s.version          = '0.1.9'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of AKCards.'
 
 # This description is used to generate tags and improve search results.
@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Example/Pods/Source/**/*.swift'
+  s.source_files = 'Example/Pods/Source/*.swift'
   
   #s.resource_bundles = {
       #'AKCards' => ['Example/Pods/Sources/**/*.swift']
   #}
-  s.resources = "Example/Pods/Source/Resources/*.xcassets"
+  s.resources = 'Example/Pods/Resources/*.xcassets', 'Example/Pods/Resources/*.swift'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
