@@ -1,5 +1,5 @@
 PODS:
-  - AKCards (0.1.1):
+  - AKCards (0.1.2):
     - R.swift
   - R.swift (5.1.0):
     - R.swift.Library (~> 5.1.0)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AKCards: 30856981d91a156e82d74434f2e5ad4c467bc0ce
+  AKCards: 897fc47be46e1a968cb349f6deac48524daad682
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
   R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
 

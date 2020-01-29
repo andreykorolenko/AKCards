@@ -12,6 +12,5 @@ public class AKCards: NSObject {
     class public func callImageFromRSwift() {
         
         let icon = R.image.masterpass()
-        
     }
 }
