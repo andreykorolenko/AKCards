@@ -88,10 +88,19 @@ public struct R: Rswift.Validatable {
     try intern.validate()
   }
 
-  /// This `R.image` struct is generated, and contains static references to 1 images.
+  /// This `R.image` struct is generated, and contains static references to 2 images.
   public struct image {
+    /// Image `back`.
+    public static let back = Rswift.ImageResource(bundle: R.hostingBundle, name: "back")
     /// Image `masterpass`.
     public static let masterpass = Rswift.ImageResource(bundle: R.hostingBundle, name: "masterpass")
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "back", bundle: ..., traitCollection: ...)`
+    public static func back(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.back, compatibleWith: traitCollection)
+    }
+    #endif
 
     #if os(iOS) || os(tvOS)
     /// `UIImage(named: "masterpass", bundle: ..., traitCollection: ...)`

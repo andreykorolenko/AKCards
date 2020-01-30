@@ -1,6 +1,6 @@
 {
   "name": "AKCards",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "summary": "A short description of AKCards.",
   "description": "'long description long description long description'",
   "homepage": "https://github.com/andreykorolenko/AKCards",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/andreykorolenko/AKCards.git",
-    "tag": "0.2.5"
+    "tag": "0.2.6"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,9 +22,6 @@
   "resources": "Example/Pods/Source/*.xcassets",
   "dependencies": {
     "R.swift": [
-
-    ],
-    "TinyConstraints": [
 
     ]
   }

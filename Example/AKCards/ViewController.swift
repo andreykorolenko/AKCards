@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
         let icon = AKCards.callImageFromRSwift()
         
+        let icon2 = AKCards.callImageFromRSwift2()
+        
     }
 
 }

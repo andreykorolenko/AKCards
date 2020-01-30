@@ -1,33 +1,28 @@
 PODS:
-  - AKCards (0.2.5):
+  - AKCards (0.2.6):
     - R.swift
-    - TinyConstraints
   - R.swift (5.1.0):
     - R.swift.Library (~> 5.1.0)
   - R.swift.Library (5.1.0)
-  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - AKCards (from `../`)
   - R.swift
-  - TinyConstraints
 
 SPEC REPOS:
   trunk:
     - R.swift
     - R.swift.Library
-    - TinyConstraints
 
 EXTERNAL SOURCES:
   AKCards:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AKCards: f5c76208409c937bd19aa79250c308f7a21b9dd7
+  AKCards: 5ce9f07e3b49b32c929513f290c24f50b9e93f54
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
   R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
-  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: fcee2b299239780bed15b2ac5809a13e630867f5
+PODFILE CHECKSUM: 7363ab2921a3da8ad57cfe54443919471b6a3324
 
 COCOAPODS: 1.8.4
